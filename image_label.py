@@ -36,7 +36,7 @@ def show_image_with_labels(bucket, photo, labels):
 
 def main():
     bucket = 'imgae-label-bucket'  # bucket name
-    photo = 'IMG_58785834CE3D-1.jpeg'  # object name
+    photo = 'IMG_5215.jpg'  # object name
 
     labels = detect_labels(bucket, photo) # Getting lables by calling "detect_labels"
     
